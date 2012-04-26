@@ -1,0 +1,11 @@
+<mt:ignore>$Id$</mt:ignore>
+<mtapp:setting
+    id="format"
+    label="<__trans phrase="Display Format">"
+    hind="">
+<select name="format">
+    <option value="1"<mt:if name="format" eq="1"> selected="selected"</mt:if>><__trans phrase="Username (Nickname)"></option>
+    <option value="2"<mt:if name="format" eq="2"> selected="selected"</mt:if>><__trans phrase="Nickname (Username)"></option>
+    <option value="3"<mt:if name="format" eq="3"> selected="selected"</mt:if>><__trans phrase="Nickname"></option>
+</select>
+</mtapp:setting>
